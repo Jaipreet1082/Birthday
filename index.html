@@ -198,14 +198,14 @@
     <form id="login-form">
         <h2>Login</h2>
         <input type="text" id="love-name" placeholder="Your Name">
-        <button id="submit-btn">Let's Eat!</button>
+        <button id="submit-btn">Let's Gooooo!</button>
     </form>
 
     <script>
         document.getElementById('submit-btn').addEventListener('click', function(event) {
             event.preventDefault();
             const nameInput = document.getElementById('love-name').value.trim();
-            if (nameInput.toLowerCase() === "Chichi") {
+            if (nameInput.toLowerCase() === "chichi") {
                 alert("Welcome My Love! 🎂");
                 window.location.href = "main.html";
             } else {
